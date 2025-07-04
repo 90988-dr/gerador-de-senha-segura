@@ -17,7 +17,7 @@ def save_credentials(username, password, filename="credentials.txt"):
         f.write(f"{username},{password}\n") # Escreve o par usuário, senha
 
 if __name__ == "__main__":
-    print("--- Gerador de Senhas Seguras ---")
+    print("--- Bem-vindo(a) ao Gerador de Senhas Super Seguras! ---")
     username = input("Por favor, digite o nome de usuário: ")
 
     while True:
